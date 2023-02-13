@@ -34,8 +34,8 @@ class Ventana(QMainWindow):
 
         barra_Herramientas = QToolBar("Barra 1")
         
-        ruta_icono1 = os.path.join(os.path.dirname(__file__), "imgs/letra.png")
-        ruta_icono2 = os.path.join(os.path.dirname(__file__), "imgs/letraVerde.png")
+        ruta_icono1 = os.path.join(os.path.dirname(__file__), "letra.png")
+        ruta_icono2 = os.path.join(os.path.dirname(__file__), "letraVerde.png")
 
         accion1 = QAction("&Copiar archivo" ,self)
         accion1.setShortcut(QKeySequence("Ctrl+c"))
